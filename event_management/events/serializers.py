@@ -1,6 +1,6 @@
 from django.db import models
 
-from api_project.api import serializers
+from events.api import serializers
 from event_management import events
 from event_management.utils.validators import validate_event_date
 
